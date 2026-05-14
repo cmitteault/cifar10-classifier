@@ -1,0 +1,19 @@
+# Données — trop lourdes pour GitHub (CIFAR-10 = ~170MB)
+data/
+
+# Modèles sauvegardés
+*.pth
+*.pt
+
+# Environnement Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Divers
+.DS_Store
+*.log
