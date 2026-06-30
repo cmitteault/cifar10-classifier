@@ -1,0 +1,3 @@
+name: cross_entropy
+param:
+  _target_: torch.nn.CrossEntropyLoss

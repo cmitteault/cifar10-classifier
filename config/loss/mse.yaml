@@ -1,0 +1,3 @@
+name: mse
+param:
+  _target_: torch.nn.MSELoss
