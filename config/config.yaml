@@ -7,15 +7,15 @@ defaults:
   - _self_
 
 training:
-  - epochs: 15
-  - patience: 10
-  - verbose: True
+  epochs: 15
+  patience: 10
+  verbose: True
 
 data:
-  - batch_size: 64
-  - data_dir: "./data"
-  - debug-mode : True
+  batch_size: 64
+  data_dir: "./data"
+  debug_mode: True
 
-wanb:
-  - project: "cifar10-classifier"
-  - run_name: "Training with W&B"
+wandb:
+  project: "cifar10-classifier"
+  run_name: "Training with W&B"

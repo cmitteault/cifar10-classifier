@@ -1,4 +1,8 @@
 torch>=2.0.0
 torchvision>=0.15.0
+hydra-core>=1.3
+omegaconf>=2.2
+wandb>=0.15
 matplotlib>=3.7.0
 numpy>=1.24.0
+# optuna>=3.0  # décommentez si vous utilisez optuna_opti.py
